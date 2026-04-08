@@ -4,7 +4,8 @@ public class circle extends ShapeAreaCal {
 
 	@Override
 	public void area() {
-		System.out.println("The area of shape is 50");
+		 double r = 5;
+	        System.out.println("Circle Area: " + (3.14 * r * r));
 		
 	}
 	
