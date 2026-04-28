@@ -56,29 +56,29 @@ public class ArrayPrograms {
 		
 		//6. Write a program to find the maximum element in a 1D array
 		
-		int [] arr = {10,47,60,2,59};
-		
-		int max = arr[0];
-		
-		for(int i=0; i<arr.length; i++) {
-			if(arr[i] > max) {
-				max = arr[i];
-			}
-		}
-		System.out.println("Maximum element = " + max);
-		System.out.println("---------------------------------------------------------");	
-		
-		//7. Write a program to find the minimum element in a 1D array
-		
-		int min = arr[0];
-		
-		for(int i=0; i<arr.length; i++) {
-			if(arr[i] < min) {
-				min = arr[i];
-			}
-		}
-		System.out.println("Minimum element = " + min);
-		System.out.println("---------------------------------------------------------");
+//		int [] arr = {10,47,60,2,59};
+//		
+//		int max = arr[0];
+//		
+//		for(int i=0; i<arr.length; i++) {
+//			if(arr[i] > max) {
+//				max = arr[i];
+//			}
+//		}
+//		System.out.println("Maximum element = " + max);
+//		System.out.println("---------------------------------------------------------");	
+//		
+//		//7. Write a program to find the minimum element in a 1D array
+//		
+//		int min = arr[0];
+//		
+//		for(int i=0; i<arr.length; i++) {
+//			if(arr[i] < min) {
+//				min = arr[i];
+//			}
+//		}
+//		System.out.println("Minimum element = " + min);
+//		System.out.println("---------------------------------------------------------");
 		
 		//8. Write a program to search an element in a 1D array 
 		
@@ -129,7 +129,202 @@ public class ArrayPrograms {
 	    		
 	    		System.out.println(arr2[i]);
 	    	}
-	   
-		
+	   System.out.println("----------------------------------------------------------------");
+		//11. Write a program to reverse a 1D array.
+	    	
+//	    	 int arr[] = {1, 2, 3, 4, 5};
+//
+//	         System.out.println("Reversed array:");
+//
+//	         for (int i = arr.length - 1; i >= 0; i--) {
+//	             System.out.print(arr[i] + " ");
+//	         }
+//	    System.out.println("---------------------------------------------------------------");
+	    
+	     //12. Write a program to sort a 1D array in ascending order.
+	    
+//	    int arr[] = {5, 2, 8, 1, 3};
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = i + 1; j < arr.length; j++) {
+//
+//                if (arr[i] > arr[j]) {
+//                    int temp = arr[i];
+//                    arr[i] = arr[j];
+//                    arr[j] = temp;
+//                }
+//            }
+//        }
+//            for (int i = 0; i < arr.length; i++) {
+//            System.out.print(arr[i] + " ");
+//        }
+            
+         //13. Write a program to sort a 1D array in descending order.
+            
+//            int arr[] = {5, 2, 8, 1, 3};
+//
+//            for (int i = 0; i < arr.length; i++) {
+//                for (int j = i + 1; j < arr.length; j++) {
+//
+//                    if (arr[i] < arr[j]) {
+//                        int temp = arr[i];
+//                        arr[i] = arr[j];
+//                        arr[j] = temp;
+//                    }
+//                }
+//            }
+//
+//            for (int i = 0; i < arr.length; i++) {
+//                System.out.print(arr[i] + " ");
+//            }
+            
+         //14. Write a program to find duplicate elements in a 1D array.
+           
+//            int arr[] = {1, 2, 3, 2, 4, 5, 1};
+//
+//            for (int i = 0; i < arr.length; i++) {
+//                for (int j = i + 1; j < arr.length; j++) {
+//
+//                    if (arr[i] == arr[j]) {
+//                        System.out.print(arr[i] + " ");
+//                        break;
+//                    }
+//                }
+//            }
+            
+           //15. Write a program to remove duplicate elements from a 1D array.
+            
+//            int arr[] = {1, 2, 3, 2, 4, 5, 1};
+//
+//            System.out.print("Array without duplicates: ");
+//
+//            for (int i = 0; i < arr.length; i++) {
+//
+//                int j;
+//                for (j = 0; j < i; j++) {
+//                    if (arr[i] == arr[j]) {
+//                        break;
+//                    }
+//                }
+//
+//                if (i == j) {
+//                    System.out.print(arr[i] + " ");
+//                }
+//            }
+            
+            //16. Write a program to count frequency of each element in a 1D array.
+            
+//            int arr[] = {1, 2, 3, 2, 1};
+//
+//            for (int i = 0; i < arr.length; i++) {
+//
+//                int count = 0;
+//
+//                for (int j = 0; j < arr.length; j++) {
+//                    if (arr[i] == arr[j]) {
+//                        count++;
+//                    }
+//                }
+//
+//                int k;
+//                for (k = 0; k < i; k++) {
+//                    if (arr[i] == arr[k]) {
+//                        break;
+//                    }
+//                }
+//
+//                if (i == k) {
+//                    System.out.println(arr[i] + " = " + count);
+//                }
+//            }
+            
+            //17. Write a program to find the second largest element in a 1D array.
+            
+//            int arr[] = {5, 2, 8, 1, 3};
+//
+//            int largest = arr[0];
+//            int second = arr[0];
+//
+//            for (int i = 0; i < arr.length; i++) {
+//                if (arr[i] > largest) {
+//                    largest = arr[i];
+//                }
+//            }
+//
+//            for (int i = 0; i < arr.length; i++) {
+//
+//                if (arr[i] > second) {
+//                    if (arr[i] < largest) {
+//                        second = arr[i];
+//                    }
+//                }
+//            }
+//
+//            System.out.println("Second largest: " + second);
+            
+          //18. Write a program to find the second smallest element in a 1D array.
+            
+//            int arr[] = {5, 2, 8, 1, 3};
+//
+//            int smallest = arr[0];
+//            int second = arr[0];
+//
+//            for (int i = 0; i < arr.length; i++) {
+//                if (arr[i] < smallest) {
+//                    smallest = arr[i];
+//                }
+//            }
+//
+//            for (int i = 0; i < arr.length; i++) {
+//
+//                if (arr[i] < second) {
+//                    if (arr[i] > smallest) {
+//                        second = arr[i];
+//                    }
+//                }
+//            }
+//
+//            System.out.println("Second smallest: " + second);
+//            System.out.println("------------------------------------------------------------");
+            
+           // 19. Write a program to merge two 1D arrays.
+            
+//            int array1[] = {1, 2, 3};
+//            int array2[] = {4, 5, 6};
+//
+//            int n1 = array1.length;
+//            int n2 = array2.length;
+//
+//            int merge[] = new int[n1 + n2];
+//
+//            for (int i = 0; i < n1; i++) {
+//                merge[i] = array1[i];
+//            }
+//
+//            for (int i = 0; i < n2; i++) {
+//                merge[n1 + i] = array2[i];
+//            }
+//
+//            System.out.print("Merged array: ");
+//            for (int i = 0; i < merge.length; i++) {
+//                System.out.print(merge[i] + " ");
+//            }
+            
+          //20.Write a program to check whether a 1D array is a palindrome.
+            
+            int arr[] = {1, 2, 3, 2, 1};
+
+            int count = 0;
+
+            for (int i = 0; i < arr.length / 2; i++) {
+                if (arr[i] == arr[arr.length - 1 - i]) {
+                    count++;
+                }
+            }
+
+            if (count == arr.length / 2)
+                System.out.println("Palindrome");
+            else
+                System.out.println("Not Palindrome");
 	}
 }
